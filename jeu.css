@@ -1,0 +1,93 @@
+h1,h2
+{
+	color:pink;
+}
+
+h4
+{
+	color:red
+}
+
+body
+{
+	font-weight:bold;
+}
+
+.infos
+{
+	float:left;
+	width:300px;
+	text-align: center;
+}
+
+.jeu
+{
+	float:left;
+	display:inline;
+  	width: 500px;
+	padding-left : 70px;
+	padding-right : 70px;
+    cursor: url('http://www.doctissimo.fr/Library/images/spacer.gif'), auto; height: 100%;
+}
+
+.classement{
+	float:right;
+	width:300px;
+	text-align: center;
+}
+
+.classementfinal{
+	width:300px;
+	text-align: center;
+}
+
+.page
+{
+    background-image: url("mario.jpg");
+    background-position:left top;
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
+}
+
+.song
+{
+  visibility:hidden;
+}
+
+body{
+	
+	background-image: url("mariopetit.jpg");
+   background-position:top;
+   background-repeat : no-repeat;
+   background-size: 100% 22%;
+}
+
+#MesImages
+{
+	display:none;
+}
+
+
+
+#dialogoverlay{
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: #FFF;
+    width: 100%;
+    z-index: 10;
+}
+#dialogbox{
+    display: none;
+    position: fixed;
+    background: #000;
+    border-radius:7px;
+    width:550px;
+    z-index: 10;
+}
+#dialogbox > div{ background:#FFF; margin:8px; }
+#dialogbox > div > #dialogboxhead{ background: #666; font-size:19px; padding:10px; color:#CCC; }
+#dialogbox > div > #dialogboxbody{ background:#333; padding:20px; color:#FFF; text-align:center; }
+#dialogbox > div > #dialogboxfoot{ background: #666; padding:10px; text-align:center; }
